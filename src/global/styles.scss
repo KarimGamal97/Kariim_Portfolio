@@ -1,0 +1,72 @@
+/* Start Components */
+
+:root {
+  --main-color: #dc3545;
+  --white-color: #ffffff;
+  --hover-color: #eb3b5a;
+  --p-color: #dde2e3;
+  --black-color: #252b33;
+  --sec-p-color: #4c4d4d;
+  --third-p-color: #8e9a9d;
+  --section-color: #f8f9fa;
+  --form-color: #dee3e4;
+  --p-form-color: #b1b4b6;
+  --footer-color: #111418;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black-color);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    height: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .overlay {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home,
+  #about,
+  #client,
+  #why,
+  #process,
+  #contact,
+  #best,
+  #service {
+    padding-top: 22%;
+  }
+}
+
+/* End Components */
